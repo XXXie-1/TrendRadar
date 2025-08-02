@@ -36,9 +36,9 @@ notification:
   webhooks:
     feishu_url: "" # 飞书机器人的 webhook URL
     dingtalk_url: "" # 钉钉机器人的 webhook URL
-    wework_url: "" # 企业微信机器人的 webhook URL
-    telegram_bot_token: "" # Telegram Bot Token
-    telegram_chat_id: "" # Telegram Chat ID
+    wework_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=ab982940-5ebc-4f53-8cdd-b52a13eb72ab" # 企业微信机器人的 webhook URL
+    telegram_bot_token: "8391185259:AAEY0d-qYcJh_dnOLJNvc3JutNwVhjgAZi0" # Telegram Bot Token
+    telegram_chat_id: "7586698960" # Telegram Chat ID
 
 # 用于让关注度更高的新闻在更前面显示，合起来是 1 就行
 weight:
